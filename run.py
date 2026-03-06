@@ -23,7 +23,7 @@ while True: ##Game loop
         screen = battleScreen
 
 
-
+    #gogurt 
 
     ##----------------------------------------------------
 
