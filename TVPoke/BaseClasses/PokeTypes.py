@@ -26,8 +26,6 @@ class Normal(Pokemon):
 class Fighting(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "FIGHTING", "PSYCIC", moves, imgPath)
-
-
 class Psychic(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "PSYCHIC", "DARK", moves, imgPath)
@@ -51,4 +49,12 @@ class Dark(Pokemon):
 class Ice(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "ICE", "FIRE", moves, imgPath)
+
+class Dragon(Pokemon):
+    def __init__(self, name, hp, moves, imgPath):
+        super().__init__(name, hp, "DRAGON", "DRAGON", moves, imgPath)
+
+class Flying(Pokemon):
+    def __init__(self, name, hp, moves, imgPath):
+        super().__init__(name, hp, "FLYING", "ELECTRIC", moves, imgPath)
 
